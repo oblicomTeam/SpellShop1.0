@@ -1,0 +1,19 @@
+author: sn0wmatt
+database: false
+description: This plugin is originally made for jazzman170 to buy spells on signs.
+main: me.sn0wmatt.plugins.spellshop.Spellshop
+name: SpellShop
+startup: postworld
+url: http://oblicom.tk/
+version: '1.0'
+softdepend: [Vault]
+permissions:
+  spell.shop.cancreate:
+    description: Defines if a player can create a spell shop sign.
+    default: op
+  spell.shop.canuse:
+    description: Defines if a player can use spellshop signs.
+    default: op
+  spell.shop.castspell:
+    description: Defines if a player can cast spells in the plugin.
+    default: op
